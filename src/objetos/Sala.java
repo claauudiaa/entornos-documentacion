@@ -78,6 +78,10 @@ public class Sala {
 
     }
 
+    /**
+     * Este método muestra las butacas que hay en la sala
+     * usando el getter de la sala.
+     */
     public void asientosLibres() {
         System.out.println("\nEstos son los asientos de la sala " + getNumSala() + "\n");
         for (int i = 0; i < butacas.length; i++) {
