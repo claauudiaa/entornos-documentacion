@@ -22,6 +22,10 @@ public class Sala {
         }
     }
 
+    /**
+     * Este método muestra la informacion de las salas, usando los getter
+     * establecidos en la clase pelicula para recuperar el titulo y la duración
+     */
     public void mostrarInformacion() {
         System.out.println("\nNúmero de Sala: " + numSala);
         System.out.println("Pelicula: " + pelicula.getTitulo());
