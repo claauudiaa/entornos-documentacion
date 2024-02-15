@@ -34,6 +34,14 @@ public class Sala {
         System.out.println("Duración: " + pelicula.getDuracion() + " minutos");
     }
 
+    /**
+     * Este método permite al usuario reservar su asiento.
+     * Primer muestra las butacas para mostrar las ocupadas (1) y las vacías (0).
+     * Después permite al usuario seleccionar la columan y fila de su asiento.
+     * Hace un control de errores que dice si el asiento ha sido reservado o si
+     * el asiento estaba ocupado.
+     * Por último, vuelve a mostrar las butacas y se marca tu asiento reservado con 1.
+     */
     public void reservarButaca() {
 
         Scanner entrada = new Scanner(System.in);
