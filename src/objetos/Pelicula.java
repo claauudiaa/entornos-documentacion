@@ -10,6 +10,11 @@ public class Pelicula {
         this.duracion = duracion;
     }
 
+    /**
+     * Este método devuelve el nombre de la película para que en Main se
+     * pueda crear una sala que permita traer el titulo.
+     * @return titulo para usarlo en el constructor en Main
+     */
     public String getTitulo() {
         return titulo;
     }
@@ -19,7 +24,11 @@ public class Pelicula {
         this.titulo = titulo;
     }
 
-
+    /**
+     * Este método devuelve la duración de la película para que en Main se
+     * pueda crear una sala que permita traer la duración.
+     * @return duracion que es un int porque el tiempo está en minutos
+     */
     public int getDuracion() {
         return duracion;
     }
