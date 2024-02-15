@@ -22,6 +22,12 @@ public class Sala {
         }
     }
 
+    public void mostrarInformacion() {
+        System.out.println("\nNúmero de Sala: " + numSala);
+        System.out.println("Pelicula: " + pelicula.getTitulo());
+        System.out.println("Duración: " + pelicula.getDuracion() + " minutos");
+    }
+
     public int getNumSala() {
         return numSala;
     }
