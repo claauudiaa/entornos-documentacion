@@ -37,10 +37,19 @@ public class Main {
 
         System.out.println("\nBienvenido al programa de compra de entradas del cine " + cine1.getNombreCine() + ", contamos con " + cine1.getNumSalas() + " salas y con un aforo total de " + cine1.getAforo() + " de personas");
 
+        /**
+         * Este while sirve para que el usuario pueda seguir comprando hasta
+         * que decida salir del menú de compra de entradas
+         */
         while (opcion != 4) {
             System.out.print(
                     "\nPor favor, seleccione una opción:\n1- Ver las salas y las películas \n2- Reservar sala y butaca  \n3- Consultar asientos libres \n4- Salir \n>>> ");
             opcion = entrada.nextInt();
+            /**
+             * Este switch permite que se vayan seleccionando las opciones
+             * que el usuario quiera en cada momento.
+             * El switch incluye el default para evitar errores
+             */
             switch (opcion) {
                 case 1:
                     for (int i = 0; i < salas.length; i++) {
